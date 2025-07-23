@@ -1,0 +1,7 @@
+{
+  "name": "n8n-dev",
+  "dockerFile": "../Dockerfile",
+  "appPort": [5678],
+  "postCreateCommand": "npm install -g n8n",
+  "forwardPorts": [5678]
+}
